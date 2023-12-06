@@ -1,14 +1,8 @@
-FROM node:18
-
-# This is the directory in the container where the application will be placed
-WORKDIR /usr/src/app 
-# Copy package.json and package-lock.json to the container
-COPY package*.json ./ 
-
-RUN yarn install
-
+FROM node:18-slim
+WORKDIR /app
+COPY package*.json .
+RUN npm i -g pnpm
+RUN pnpm install
 COPY . .
-
-EXPOSE 8000
-
-CMD ["yarn", "dev"]
+EXPOSE 5173
+CMD ["pnpm", "run", "dev-exposed"]
