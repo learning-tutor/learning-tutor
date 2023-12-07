@@ -10,6 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start-watch": "tsc && vite --watch",
+    "prettier-format": "prettier --write src/",
     "docker:image": "docker build -t react-app1 .",
     "docker:local": "docker run --rm -p 8080:80 -v ./app:/App -w /App react-app1"
   },
@@ -27,6 +28,7 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "prettier": "3.1.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
