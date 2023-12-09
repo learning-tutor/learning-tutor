@@ -12,13 +12,23 @@
     "start-watch": "tsc && vite --watch",
     "prettier-format": "prettier --write src/",
     "docker:image": "docker build -t react-app1 .",
-    "docker:local": "docker run --rm -p 8080:80 -v ./app:/App -w /App react-app1"
+    "docker:local": "docker run --rm -p 8080:80 -v ./app:/App -w /App react-app1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "7.6.4",
+    "@storybook/addon-interactions": "7.6.4",
+    "@storybook/addon-links": "7.6.4",
+    "@storybook/addon-onboarding": "1.0.9",
+    "@storybook/blocks": "7.6.4",
+    "@storybook/react": "7.6.4",
+    "@storybook/react-vite": "7.6.4",
+    "@storybook/test": "7.6.4",
     "@types/node": "^20.10.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
@@ -28,7 +38,9 @@
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-storybook": "^0.6.15",
     "prettier": "3.1.0",
+    "storybook": "7.6.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }
