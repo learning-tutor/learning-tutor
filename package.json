@@ -54,6 +54,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "packageManager": "yarn@4.0.2",
   "resolutions": {
     "@vitejs/plugin-react": "4.2.1"
   }
