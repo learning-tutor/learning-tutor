@@ -23,6 +23,14 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@storybook/addon-essentials": "7.6.5",
+    "@storybook/addon-interactions": "7.6.5",
+    "@storybook/addon-links": "7.6.5",
+    "@storybook/addon-onboarding": "1.0.10",
+    "@storybook/blocks": "7.6.5",
+    "@storybook/react": "7.6.5",
+    "@storybook/react-vite": "7.6.5",
+    "@storybook/test": "7.6.5",
     "@types/node": "^20.10.3",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
@@ -38,6 +46,7 @@
     "husky": "^8.0.3",
     "prettier": "3.1.0",
     "semantic-release": "^22.0.12",
+    "storybook": "7.6.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   },
