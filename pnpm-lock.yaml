@@ -1,5 +1,8 @@
 lockfileVersion: 5.4
 
+overrides:
+  '@vitejs/plugin-react': 4.2.1
+
 specifiers:
   '@commitlint/cli': ^18.4.3
   '@commitlint/config-conventional': ^18.4.3
@@ -3754,7 +3757,7 @@ packages:
       '@rollup/pluginutils': 5.1.0
       '@storybook/builder-vite': 7.6.4_k3qfnbphwditoya5dzeiruihgy
       '@storybook/react': 7.6.4_3lfo6mjrbe7gnpm2z32jgk7g6a
-      '@vitejs/plugin-react': 3.1.0_vite@5.0.9
+      '@vitejs/plugin-react': 4.2.1_vite@5.0.9
       magic-string: 0.30.5
       react: 18.2.0
       react-docgen: 7.0.1
@@ -4529,16 +4532,16 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@5.0.9:
-    resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
+  /@vitejs/plugin-react/4.2.1_vite@5.0.9:
+    resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^4.1.0-beta.0
+      vite: ^4.2.0 || ^5.0.0
     dependencies:
       '@babel/core': 7.23.6
       '@babel/plugin-transform-react-jsx-self': 7.23.3_@babel+core@7.23.6
       '@babel/plugin-transform-react-jsx-source': 7.23.3_@babel+core@7.23.6
-      magic-string: 0.27.0
+      '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
       vite: 5.0.9_@types+node@20.10.4
     transitivePeerDependencies:
