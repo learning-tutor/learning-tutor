@@ -1,11 +1,18 @@
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans"),
+    local("OpenSans"),
+    url("assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-text);
+  background-color: var(--color-background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
